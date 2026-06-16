@@ -67,3 +67,21 @@ comparable to the QE era in terms of day-to-day noise.
 | `portfolio_news_coverage.png` | Portfolio-level high news days (≥2/5 and ≥3/5 thresholds) |
 | `phase_news_coverage.png` | Phase-split analysis of high news days vs next-day return |
 
+## GSADF Bubble Detection
+
+As the final part of EDA, we run a GSADF test on both the equal-weight portfolio 
+price index and NVDA individually to check for explosive price behavior.
+
+The key result: no sustained bubble is detected at the portfolio level, but NVDA 
+shows a clear bubble episode in early-to-mid 2024, with the BSADF statistic 
+peaking near 5.0. This period lines up with the H100 demand surge and peak AI 
+narrative intensity. The bubble deflated in early 2025, consistent with the 
+DeepSeek shock acting as the trigger.
+
+This confirms that bubble characteristics exist at the individual stock level 
+but get diversified away at the portfolio level — which is exactly why stock-level 
+analysis matters for RQ3.
+
+| File | Description |
+|------|-------------|
+| `gsadf_combined.png` | GSADF results for portfolio and NVDA side by side |
