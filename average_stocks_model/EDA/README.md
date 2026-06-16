@@ -72,15 +72,18 @@ comparable to the QE era in terms of day-to-day noise.
 As the final part of EDA, we run a GSADF test on both the equal-weight portfolio 
 price index and NVDA individually to check for explosive price behavior.
 
-The key result: no sustained bubble is detected at the portfolio level, but NVDA 
-shows a clear bubble episode in early-to-mid 2024, with the BSADF statistic 
-peaking near 5.0. This period lines up with the H100 demand surge and peak AI 
-narrative intensity. The bubble deflated in early 2025, consistent with the 
-DeepSeek shock acting as the trigger.
+No sustained bubble is detected at the portfolio level. NVDA, however, shows a 
+clear bubble episode in early-to-mid 2024, with the BSADF statistic peaking near 
+5.0, coinciding with the peak of AI narrative intensity in that period. The statistic 
+declined as prices corrected through late 2024. The DeepSeek shock in early 2025 
+produced a sharp price drop rather than a bubble — GSADF only detects explosive 
+upward behavior, so the 2025 correction does not register as a bubble signal.
 
-This confirms that bubble characteristics exist at the individual stock level 
-but get diversified away at the portfolio level — which is exactly why stock-level 
-analysis matters for RQ3.
+This matters because bubble periods are likely to amplify how strongly news sentiment 
+transmits into price movements. By identifying the 2024 H1 window as a statistically 
+confirmed bubble episode, we have a natural regime to test whether narrative shocks 
+have stronger effects during explosive market states — something that portfolio-level 
+analysis alone would completely miss.
 
 | File | Description |
 |------|-------------|
